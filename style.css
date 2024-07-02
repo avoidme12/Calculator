@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.mainText{
+    color: aliceblue;
+    font-size: 55px;
+    text-align: center;
+    position: relative;
+}
+
+.boxes{
+    color: aliceblue;
+}
+
+.boxes input{
+    text-align:left;
+    left: 470px;
+    margin-bottom: 20px;
+    position: relative;
+    align-content: center;
+    width: 50%;
+    border-radius: 0.6rem;
+    height: 50px;
+    font-size: 20px;
+}
+
+.button button{
+    border-radius: 0.7rem;
+    margin-left: 10px;
+    margin-right: 26px;
+    left: 470px;
+    position: relative;
+    align-content: center;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+    align-items: center;
+    font-size: 25px;
+    width: 10%;
+    height: 50px;
+    color: black;
+    background-color: aliceblue;
+    border-style: solid ;
+}
+
+.button button:hover{
+    opacity: 1;
+    border-color: aliceblue;
+}
+
+#mnoz{
+    background-color: rgb(12, 159, 245);
+}
+
+#dele{
+    background-color: rgb(201, 255, 8);
+}
+
+#minus{
+    background-color: rgb(255, 62, 62);
+}
+
+#plus{
+    background-color: rgb(70, 219, 70)
+    }
+
+.bsum button{
+    border-style: solid;
+    border-color: rgb(127, 1, 237);
+    background-color: black;
+    color: rgb(127, 1, 237);
+    text-align: center;
+    left: 470px;
+    margin-bottom: 20px;
+    position: relative;
+    align-content: center;
+    width: 50%;
+    border-radius: 0.3rem;
+    height: 50px;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+
+.bsum button:hover{
+    background-color: rgb(127, 1, 237);
+    color: black;
+}
+
+.sumLabel{
+    left: 470px;
+    background-color: aliceblue;
+    text-align: center;
+    color: black;
+    border-radius: 1px;
+    border-color: aliceblue;
+    position: relative;
+    align-items: center;
+    font-size: 40px;
+    height: 80px;
+    width: 50%;
+}
+
